@@ -1,10 +1,10 @@
-# idade = 15
+idade = 15
 
-# altura = 1.75
+altura = 1.75
 
-# resultado = (idade >= 18) and (altura >= 1.70)
+resultado = (idade >= 18) and (altura >= 1.70)
 
-# msg = 'Pode participar do evento? ' + str(resultado)
+msg = 'Pode participar do evento? ' + str(resultado)
 
-# print(msg)
+print(msg)
 
