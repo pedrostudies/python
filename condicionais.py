@@ -11,5 +11,5 @@ if (media >= 7.5):
     print('Resultado: Aprovado!')
     print('Parabéns, você foi aprovado!')
 
-print('A sua média é {}'.format(media))
+print(f'A sua média é {media}')
 
