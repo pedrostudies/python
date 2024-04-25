@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 numes = [2,3,4,5,6,7] ## listas
 
 print(numes) ## printar a lista inteira
@@ -15,13 +14,3 @@ print(len(numes)) ## retorna a quantidade de indexs
 
 print(sorted(numes, reverse=True)) ## orderna os itens em crescente ou com reverse ativo decrescente
 
-=======
-bebidas = []
-
-for i in range(5):
-    bebida = input("Qual sua bebida favorita?: ")
-    bebidas.append(bebida)
-
-for bebida in bebidas:
-    print(bebida)
->>>>>>> Stashed changes
