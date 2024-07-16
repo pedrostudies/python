@@ -37,7 +37,28 @@
 # num_par = list(filter(numeros_pares, numeros))
 # print(num_par)
 
-numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+# numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13]
 
-num_impar = list(filter(lambda x: x % 2 != 0, numeros))
-print(num_impar)
+# num_impar = list(filter(lambda x: x % 2 != 0, numeros))
+# print(num_impar)
+
+# Função reduce()
+# Sintaxe
+# reduce(função, sequencia, valor_incial)
+
+from functools import reduce
+
+# def mult(x, y):
+#     return x * y
+
+# numeros = [1,2,3,4,5,6]
+
+# total = reduce(mult, numeros)
+# print(total)
+
+# Soma cumulativa dos quadrados de valores, usando expressão lambda
+
+numeros = [1,2,3,4]
+
+total = reduce(lambda x, y: x**2 + y**2, numeros)
+print(total)
